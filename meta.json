@@ -789,6 +789,66 @@
       "srcDir": "src",
       "backend": "c",
       "ref": "refs/tags/4.0.1"
+    },
+    {
+      "name": "ezscr",
+      "version": "4.0.2",
+      "author": "Thiago Navarro",
+      "desc": "Portable and easy Nimscript runner. Nim compiler not needed",
+      "license": "mit",
+      "skipDirs": [],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [
+        "nim"
+      ],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 1.6.4",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "1.6.4"
+          }
+        },
+        {
+          "name": "nimscripter",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "cligen",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "yaml",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "util",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [
+        "ezscr"
+      ],
+      "binDir": "build",
+      "srcDir": "src",
+      "backend": "c",
+      "ref": "refs/tags/4.0.2"
     }
   ],
   "description": "Portable and easy Nimscript runner. Nim compiler not needed",
@@ -809,6 +869,7 @@
     "refs/tags/3.4.0",
     "refs/tags/3.4.1",
     "refs/tags/4.0.1",
+    "refs/tags/4.0.2",
     ""
   ],
   "heads": [
